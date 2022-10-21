@@ -1,13 +1,35 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from './components/Home';
+import Cine from './components/Cine';
+import Musica from './components/Musica';
+import Router from './components/Router';
+import MenuRutas from './components/MenuRutas';
+
+import FormSimple from './components/FormSimple';
+import Collatz from './components/Collatz';
+import TablaMultiplicar from './components/TablaMultiplicar';
+import TablaMultiplicar2 from './components/TablaMultiplicar2';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <h1><a href="/">PAGINA PRINCIPAL </a></h1>
+    <hr/>
+    {/* <MenuRutas></MenuRutas> */}
+    {/* <Router/> */}
+    {/* <Collatz></Collatz> */}
+    {/* <TablaMultiplicar/> */}
+
+    <TablaMultiplicar2/>
+
+    {/* <FormSimple></FormSimple> */}
+    {/* <Home/>
+    <Cine/>
+    <Musica/> */}
   </React.StrictMode>
 );
 
