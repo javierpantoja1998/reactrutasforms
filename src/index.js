@@ -12,6 +12,7 @@ import FormSimple from './components/FormSimple';
 import Collatz from './components/Collatz';
 import TablaMultiplicar from './components/TablaMultiplicar';
 import TablaMultiplicar2 from './components/TablaMultiplicar2';
+import SeleccionMultiple from './components/SeleccionMultiple';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,7 +25,8 @@ root.render(
     {/* <Collatz></Collatz> */}
     {/* <TablaMultiplicar/> */}
 
-    <TablaMultiplicar2/>
+    {/* <TablaMultiplicar2/> */}
+    <SeleccionMultiple/>
 
     {/* <FormSimple></FormSimple> */}
     {/* <Home/>

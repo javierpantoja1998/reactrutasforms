@@ -6,14 +6,18 @@ export default class TablaMultiplicar extends Component {
         }
         //Recogemos y definimos la caja del numero
         SelectNumero = React.createRef();
+        //Creamos la funcion para crear el select
         crearSelect = (e) => {
             //Limpiamos el evento y evitamos que se propague
             e.preventDefault();
             var aux = [];
             for (let i = 0; i < 10; i++) {
+                //Creamos los numeros aleatorios
                 var aleatorio = Math.floor(Math.random()*10);
+                //Metemos los numeros aleatorios en el array auxiliar
                 aux.push(aleatorio);
             }
+            //Cambiamos el state y metemos el  array aux en el array Lista
             this.setState({
                 lista: aux
             });
